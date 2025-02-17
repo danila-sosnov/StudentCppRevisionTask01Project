@@ -28,7 +28,7 @@ void testingTask03() {
 		&& !task03(1, 2, 3) && !task03(1, 1, 3) && !task03(1, 3, 1) && !task03(3, 1, 1)
 		&& !task03(-3, -4, -5) && !task03(-3, 4, 5) && !task03(3, -4, 5) && !task03(3, 4, -5)
 		&& !task03(-1, -1, -1);
-
+		
 	cout << "Task 03 " << (result ? RIGHT : WRONG) << endl;
 }
 

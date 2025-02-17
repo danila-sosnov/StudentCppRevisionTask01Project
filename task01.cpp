@@ -26,5 +26,9 @@
 */
 
 int task01(int a, int b) {
-	return 0;
+
+
+	return a > b ? a : b;
 }
+
+// O(1)
