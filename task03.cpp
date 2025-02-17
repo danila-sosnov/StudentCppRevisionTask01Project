@@ -1,5 +1,6 @@
 ﻿#include "tasks.h"
 
+
 /*	Task 03. Triangle [треугольник]
 *
 *	Даны три натуральных числа a, b, c.
@@ -23,5 +24,14 @@
 */
 
 bool task03(int a, int b, int c) {
-	return false;
+
+	
+	
+
+
+	return a + b > c && b + c > a
+		&& a + c > b ? true : false;
+
 }
+
+//O(1)
