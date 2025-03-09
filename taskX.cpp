@@ -30,10 +30,7 @@ bool taskX(int width, int length, int side) {
 		return false;
 	}
 
-	if (width <= side && length <= side)
-	{
-		return true;
-	}
+	
 
-	return false;
+	return width <= side && length <= side;
 }
