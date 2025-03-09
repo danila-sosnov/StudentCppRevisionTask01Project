@@ -29,8 +29,8 @@ bool task03(int a, int b, int c) {
 	
 
 
-	return a + b > c && b + c > a
-		&& a + c > b ? true : false;
+	return a + b > c && a + c > b && b + c > a;
+		
 
 }
 
